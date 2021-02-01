@@ -13,7 +13,7 @@
                                 >Find us on any of these platforms or feel free to
                                     <NuxtLink
                                         to="/contact"
-                                        class="hover:text-gray-400 text-gray-100"
+                                        class="hover:text-yellow-400 text-gray-100"
                                         >contact
                                     </NuxtLink>
                                 us.
@@ -22,25 +22,25 @@
                             <div class="justify-evenly flex text-gray-200">
                                 <NuxtLink
                                     to="/"
-                                    class="hover:text-gray-400"
+                                    class="hover:text-yellow-400"
                                     >
                                     <fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','facebook']" />
                                 </NuxtLink>
                                 <NuxtLink
                                     to="/"
-                                    class="hover:text-gray-400"
+                                    class="hover:text-yellow-400"
                                     >
                                     <fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','twitter']" />
                                 </NuxtLink>
                                 <NuxtLink
                                     to="/"
-                                    class="hover:text-gray-400"
+                                    class="hover:text-yellow-400"
                                     >
                                     <fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','google']" />
                                 </NuxtLink>
                                 <NuxtLink
                                     to="/"
-                                    class="hover:text-gray-400"
+                                    class="hover:text-yellow-400"
                                     >
                                     <fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','instagram']" />
                                 </NuxtLink>
@@ -57,36 +57,36 @@
                             <div class="text-white lg:flex-col flex justify-evenly">
                                 <NuxtLink
                                     to="/"
-                                    class="hover:text-gray-400 text-gray-200"
+                                    class="hover:text-yellow-400 text-gray-200"
                                     >Home 
                                 </NuxtLink>
                                 <span class="lg:hidden text-gray-200">|</span>
                                 <NuxtLink
                                     to="/"
-                                    class="hover:text-gray-400 text-gray-200"
+                                    class="hover:text-yellow-400 text-gray-200"
                                     >Contact
                                 </NuxtLink>
                                 <span class="lg:hidden text-gray-200">|</span>
                                 <NuxtLink
                                     to="/"
-                                    class="hover:text-gray-400 text-gray-200"
+                                    class="hover:text-yellow-400 text-gray-200"
                                     >Events
                                 </NuxtLink>
                                 <span class="lg:hidden text-gray-200">|</span>
                                 <NuxtLink
                                     to="/"
-                                    class="hidden lg:inline-block hover:text-gray-400 text-gray-200"
+                                    class="hidden lg:inline-block hover:text-yellow-400 text-gray-200"
                                     >About Us
                                 </NuxtLink>
                                 <NuxtLink
                                     to="/"
-                                    class="lg:hidden hover:text-gray-400 text-gray-200"
+                                    class="lg:hidden hover:text-yellow-400 text-gray-200"
                                     >Locations
                                 </NuxtLink>
                                 <span class="lg:hidden text-gray-200">|</span>
                                 <NuxtLink
                                     to="/"
-                                    class="lg:hidden hover:text-gray-400 text-gray-200"
+                                    class="lg:hidden hover:text-yellow-400 text-gray-200"
                                     >Safe Sport
                                 </NuxtLink>
                             </div>
@@ -99,22 +99,22 @@
                             <hr class="hidden lg:block my-2">
                             <NuxtLink
                                 to=""
-                                class="hover:text-gray-400 text-gray-200"
+                                class="hover:text-yellow-400 text-gray-200"
                                 >Pool Locations
                             </NuxtLink>
                             <NuxtLink
                                 to="/"
-                                class="hover:text-gray-400 text-gray-200"
+                                class="hover:text-yellow-400 text-gray-200"
                                 >Terms & Conditions
                             </NuxtLink>
                             <NuxtLink
                                 to="/"
-                                class="hover:text-gray-400 text-gray-200"
+                                class="hover:text-yellow-400 text-gray-200"
                                 >Privacy Policy
                             </NuxtLink>
                             <NuxtLink
                                 to="/"
-                                class="hover:text-gray-400 text-gray-200"
+                                class="hover:text-yellow-400 text-gray-200"
                                 >MIT License
                             </NuxtLink>
                         </div>
@@ -129,7 +129,7 @@
                     </p>
                     <a
                         href="#"
-                        class="justify-center mr-5 text-sm text-center text-gray-400 hover:text-white"
+                        class="justify-center mr-5 text-sm text-center text-gray-400 hover:text-yellow-400"
                         > All Rights Reserves
                     </a>
                 </div>
