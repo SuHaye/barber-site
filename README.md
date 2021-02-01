@@ -1,4 +1,4 @@
-# barber-site
+# A site for my friends barber shop.
 
 ## Build Setup
 
