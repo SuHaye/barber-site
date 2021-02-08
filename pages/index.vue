@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-200 pb-20">
+  <div class="bg-gray-200">
 
     <!-- Carousel -->
     <div class="carousel relative shadow-2xl pt-24">
@@ -62,16 +62,15 @@
     <!-- Carousel -->
     </div>
 
-    <!-- First Section -->
+    <!-- First Section/ About Company-->
     <section>
-      <div class="flex flex-col lg:flex-row md:px-10 xl:px-20 2xl:px-32">
+      <div class="flex flex-col lg:flex-row pb-20 lg:py-20 md:px-10 xl:px-20 2xl:px-32 bg-gradient-to-b from-gray-200 to-gray-400">
         <!-- Left Side -->
         <div class="text-center px-5 md:px-0 lg:w-2/3 xl:w-3/4">
           <h3
-            class="mt-20 md:mb-3 text-gray-700 font-bold tracking-wider text-4xl sm:text-5xl"
+            class="mt-20 mb-10 lg:mb-3 text-gray-700 font-bold tracking-wider text-4xl sm:text-5xl"
             >Gold Cuts Barber Shop
           </h3>
-          <hr class="">
           <div class="">
             <p
               class="tracking-wide text-gray-600 mt-5 whitespace-pre-line text-lg sm:text-xl md:text-2xl"
@@ -81,7 +80,7 @@
               providing a range of classic and modern barber 
               services. If you are in need of a classic cut, 
               a clean face, or whatever it is you are looking for. 
-              <NuxtLink to="/" class="text-yellow-400 font-bold text-xl sm:text-2xl md:text-3xl">Gold Cuts</NuxtLink> has you covered.
+              <NuxtLink to="/" class="hover:text-yellow-400 italic hover:font-bold text-xl sm:text-2xl md:text-3xl">Gold Cuts</NuxtLink> has you covered.
             </p>
             <p
               class="tracking-wide text-gray-600 mt-5 whitespace-pre-line text-lg sm:text-xl md:text-2xl"
@@ -109,7 +108,51 @@
         </div>
       </div>
     </section>
-    
+
+    <!-- Secont Section/ Barbers and Contact -->
+    <section>
+      <div 
+        class="h-full bg-fixed bg-center bg-cover"
+        style='background-image: url("../section-22.jpg");'
+        >
+        <div class="">
+          <h2
+            class="pt-20 p-10 text-5xl font-bold uppercase text-center text-gray-800"
+            >Barbers
+          </h2>
+        </div>
+
+        <div class="p-10 w-full md:w-6/12 lg:w-3/12">
+          <!-- Barber 1 -->
+          <div class="flex justify-center">
+            <div class="items-center flex flex-col bg-gradient-to-b from-gray-400 to-gray-200 p-2 rounded-lg shadow-lg">
+              <img 
+                src="barber1.jpg"
+                alt=""
+                class="h-96 w-96 md:h-64 md:w-64 lg:h-54 lg:w-54 xl:h-64 xl:w-64 2xl:w-72 2xl:h-72 rounded-lg shadow-lg"
+              />
+              <div class="text-center text-gray-700">
+                <h5
+                  class="mt-2 text-2xl font-bold"
+                  >Larry Bob
+                </h5>
+                <div class="my-1">
+                  <NuxtLink
+                    to=""
+                    class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-500 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
+                    >Book Now
+                  </NuxtLink>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+
+      
+      </div>
+    </section>
   </div>
 </template>
 

@@ -36,12 +36,6 @@
                                     to="/"
                                     class="hover:text-yellow-400"
                                     >
-                                    <fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','google']" />
-                                </NuxtLink>
-                                <NuxtLink
-                                    to="/"
-                                    class="hover:text-yellow-400"
-                                    >
                                     <fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','instagram']" />
                                 </NuxtLink>
                             </div>
