@@ -102,14 +102,14 @@
         <div class="lg:w-1/3 xl:w-7/12 xl:p-10 lg:my-auto lg:p-2 xl:p-0 lg:mr-3 xl:mr-0">
             <img
               alt="..."
-              src="../static/article1.jpg"
+              src="article1.jpg"
               class="h-80 lg:h-96 w-full md:rounded-md shadow-lg"
             />
         </div>
       </div>
     </section>
 
-    <!-- Secont Section/ Barbers and Contact -->
+    <!-- Second Section/ Barbers and Contact -->
     <section>
       <div 
         class="h-full bg-fixed bg-center bg-cover"
@@ -139,7 +139,7 @@
                 <div class="my-1">
                   <NuxtLink
                     to=""
-                    class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-500 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
+                    class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-400 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
                     >Book Now
                   </NuxtLink>
                 </div>
@@ -162,7 +162,7 @@
                 <div class="my-1">
                   <NuxtLink
                     to=""
-                    class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-500 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
+                    class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-400 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
                     >Book Now
                   </NuxtLink>
                 </div>
@@ -185,7 +185,7 @@
                 <div class="my-1">
                   <NuxtLink
                     to=""
-                    class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-500 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
+                    class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-400 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
                     >Book Now
                   </NuxtLink>
                 </div>
@@ -208,7 +208,7 @@
                 <div class="my-1">
                   <NuxtLink
                     to=""
-                    class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-500 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
+                    class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-400 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
                     >Book Now
                   </NuxtLink>
                 </div>
@@ -221,6 +221,96 @@
       
       </div>
     </section>
+
+    <!-- Prices for Cuts -->
+    <div class="bg-gradient-to-b from-gray-400 to-gray-700">
+      <div class="flex flex-col lg:flex-row pb-20 lg:py-20 md:px-10 xl:px-20 2xl:px-32">
+        <!-- Left Side/ Icon or Picture -->
+        <div class="w-1/2 flex justify-center">
+          <img 
+            class="hidden lg:inline-block md:rounded-md shadow-lg h-96 w-80 my-auto"
+            src="priceimage.jpg"
+            alt=""
+          >
+        </div>
+        <!-- Right Side/ Prices -->
+        <div class="lg:w-1/2 flex flex-col justify-center text-center lg:text-left">
+          <!-- Haircuts & Combos -->
+          <div class="">
+            <h2
+              class="mx-auto w-2/3 lg:mx-0 lg:w-full xl:w-3/4 2xl:w-2/3 mt-20 lg:mt-0 mb-10 text-gray-800 font-bold tracking-wider text-4xl sm:text-5xl 
+              border-b-2 border-gray-900 pb-5"
+              >Barber Services
+            </h2>
+            <h3
+              class="text-gray-900 font-semibold tracking-widest text-2xl"
+              >Haircuts & Combos
+            </h3>
+            <ul>
+              <li
+                class="text-gray-900 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg mt-2"
+                >Haircut w/ Hot Towel, Straight Razor Cleanup - <span class="text-yellow-400 font-semibold">$21</span>
+              </li>
+              <li
+                class="text-gray-900 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg"
+                >Haircut w/ Shampoop - <span class="text-yellow-400 font-semibold">$25</span>
+              </li>
+              <li
+                class="text-gray-900 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg"
+                >Haircut w/ Razor Fade - <span class="text-yellow-400 font-semibold">$25</span>
+              </li>
+              <li
+                class="text-gray-900 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg"
+                >Haircut w/ Beard and Mutache Trim - <span class="text-yellow-400 font-semibold">$25-$31</span>
+              </li>
+              <li
+                class="text-gray-900 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg"
+                >Haircut w/ Traditional Straight Razor Shave - <span class="text-yellow-400 font-semibold">$40</span>
+              </li>
+              <li
+                class="text-gray-900 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg"
+                >Haircut w/ Deluxe Steam Shave - <span class="text-yellow-400 font-semibold">$45</span>
+              </li>
+              <li
+                class="text-gray-900 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg"
+                >Kids Cuts (12 and under) - <span class="text-yellow-400 font-semibold">$15-$18</span>
+              </li>
+            </ul>
+          </div>
+          <!-- Shaves -->
+          <div class="">
+            <h3
+              class="text-gray-900 font-semibold tracking-widest text-2xl mt-5"
+              >Shaves
+            </h3>
+            <ul>
+              <li
+                class="text-gray-900 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg mt-2"
+                >Gold Cuts Famous Straight Razor Shave - <span class="text-yellow-400 font-semibold">$30</span>
+              </li>
+              <li
+                class="text-gray-900 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg"
+                >Deluxe Steam Shave - <span class="text-yellow-400 font-semibold">$45</span>
+              </li>
+            </ul>
+          </div>
+          <!-- Discount -->
+          <div class="mt-5 text-gray-900 font-bold tracking-widest text-lg">
+            <h4>*Discount avaliable for active military*</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Services may vary per barber statement -->
+      <div class="text-center px-5 pb-20">
+      <h5
+        class="whitespace-pre-line lg:whitespace-normal text-lg sm:text-xl text-gray-900 tracking-wider font-semibold italic"
+        >At Gold Cuts, our barbers are independent 
+        consultants, so prices and services may vary.
+      </h5>
+      </div>
+    </div>
+
+    
   </div>
 </template>
 
