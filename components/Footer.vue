@@ -20,24 +20,23 @@
                                 </p>
                             </div>
                             <div class="justify-evenly flex text-gray-200">
-                                <NuxtLink
-                                    to="/"
+                                <a 
+                                    href="https://www.facebook.com/goldcutschicago"
                                     class="hover:text-yellow-400"
-                                    >
-                                    <fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','facebook']" />
-                                </NuxtLink>
+                                    ><fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','facebook']" />
+                                </a>
                                 <NuxtLink
                                     to="/"
                                     class="hover:text-yellow-400"
                                     >
                                     <fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','twitter']" />
                                 </NuxtLink>
-                                <NuxtLink
-                                    to="/"
+                                <a 
+                                    href="https://www.instagram.com/goldcuts_chicago/"
                                     class="hover:text-yellow-400"
-                                    >
-                                    <fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','instagram']" />
-                                </NuxtLink>
+                                    ><fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','instagram']" />
+                                </a>
+                                
                             </div>
                     </div>
                     <!-- Right Side/Bottom -->
