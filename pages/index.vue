@@ -103,7 +103,7 @@
             <img
               alt="..."
               src="../static/article1.jpg"
-              class="h-80 lg:h-96 w-full md:rounded-xl shadow-lg"
+              class="h-80 lg:h-96 w-full md:rounded-md shadow-lg"
             />
         </div>
       </div>
@@ -117,19 +117,19 @@
         >
         <div class="">
           <h2
-            class="pt-20 p-10 text-5xl font-bold uppercase text-center text-gray-800"
+            class="pt-20 p-10 text-6xl font-bold uppercase text-center text-gray-800"
             >Barbers
           </h2>
         </div>
 
-        <div class="p-10 w-full md:w-6/12 lg:w-3/12">
+        <div class="py-10 px-5 flex flex-wrap">
           <!-- Barber 1 -->
-          <div class="flex justify-center">
-            <div class="items-center flex flex-col bg-gradient-to-b from-gray-400 to-gray-200 p-2 rounded-lg shadow-lg">
+          <div class="flex justify-center w-full md:w-6/12 lg:w-3/12 mb-10">
+            <div class="items-center flex flex-col bg-gradient-to-b from-gray-400 to-gray-200 p-1 shadow-lg">
               <img 
                 src="barber1.jpg"
                 alt=""
-                class="h-96 w-96 md:h-64 md:w-64 lg:h-54 lg:w-54 xl:h-64 xl:w-64 2xl:w-72 2xl:h-72 rounded-lg shadow-lg"
+                class="h-96 w-96 md:h-64 md:w-64 lg:h-52 lg:w-52 xl:h-64 xl:w-64 2xl:w-72 2xl:h-72 rounded-md shadow-lg"
               />
               <div class="text-center text-gray-700">
                 <h5
@@ -146,7 +146,75 @@
               </div>
             </div>
           </div>
-          
+          <!-- Barber 2 -->
+          <div class="flex justify-center w-full md:w-6/12 lg:w-3/12 mb-10">
+            <div class="items-center flex flex-col bg-gradient-to-b from-gray-400 to-gray-200 p-1 shadow-lg">
+              <img 
+                src="barber2.jpg"
+                alt=""
+                class="h-96 w-96 md:h-64 md:w-64 lg:h-52 lg:w-52 xl:h-64 xl:w-64 2xl:w-72 2xl:h-72 rounded-md shadow-lg"
+              />
+              <div class="text-center text-gray-700">
+                <h5
+                  class="mt-2 text-2xl font-bold"
+                  >Tim Bobby
+                </h5>
+                <div class="my-1">
+                  <NuxtLink
+                    to=""
+                    class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-500 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
+                    >Book Now
+                  </NuxtLink>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Barber 3 -->
+          <div class="flex justify-center w-full md:w-6/12 lg:w-3/12 mb-10">
+            <div class="items-center flex flex-col bg-gradient-to-b from-gray-400 to-gray-200 p-1 shadow-lg">
+              <img 
+                src="barber4.jpg"
+                alt=""
+                class="h-96 w-96 md:h-64 md:w-64 lg:h-52 lg:w-52 xl:h-64 xl:w-64 2xl:w-72 2xl:h-72 rounded-md shadow-lg"
+              />
+              <div class="text-center text-gray-700">
+                <h5
+                  class="mt-2 text-2xl font-bold"
+                  >Ricky Sanchez
+                </h5>
+                <div class="my-1">
+                  <NuxtLink
+                    to=""
+                    class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-500 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
+                    >Book Now
+                  </NuxtLink>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Barber 4 -->
+          <div class="flex justify-center w-full md:w-6/12 lg:w-3/12 mb-10">
+            <div class="items-center flex flex-col bg-gradient-to-b from-gray-400 to-gray-200 p-1 shadow-lg">
+              <img 
+                src="barber3.jpg"
+                alt=""
+                class="h-96 w-96 md:h-64 md:w-64 lg:h-52 lg:w-52 xl:h-64 xl:w-64 2xl:w-72 2xl:h-72 rounded-md shadow-lg"
+              />
+              <div class="text-center text-gray-700">
+                <h5
+                  class="mt-2 text-2xl font-bold"
+                  >Tom Baker
+                </h5>
+                <div class="my-1">
+                  <NuxtLink
+                    to=""
+                    class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-500 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
+                    >Book Now
+                  </NuxtLink>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
 
