@@ -3,7 +3,7 @@
     <!-- Main Nav Container -->
     <nav class="z-50 h-auto w-full xl:px-10 bg-gray-700 flex flex-wrap items-center justify-between navbar-expand-lg fixed shadow-lg hover:shadow-xl">
         <!-- Container Holds All of the Content -->
-        <div class="container mx-auto flex flex-wrap items-center pb-6 lg:pb-0 pt-2 rounded-b-xl"
+        <div class="container mx-auto flex flex-wrap items-center pt-2 rounded-b-xl"
         v-bind:class="{'bg-transparent': !showMenu, 'bg-gray-700': showMenu}">
 
             <!-- Content on Left Side and Mobile Dropdown Button -->
@@ -54,7 +54,7 @@
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
                         to="/practice"
-                        >SAFE SPORT
+                        >APPOINTMENT
                         </NuxtLink>
                     </li>
                 </ul>
