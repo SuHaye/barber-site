@@ -1,5 +1,5 @@
     <template>
-        <footer class="text-gray-600 bg-gray-700 pt-10">
+        <footer class="text-gray-600 bg-gray-700 pt-10 border-t-2 border-white">
             <div class="container mx-auto px-5 lg:pb-10">
                 <!-- Flex -->
                 <div class="flex flex-col lg:flex-row">
@@ -9,11 +9,11 @@
                                 <h2 class="text-white text-3xl font-semibold tracking-widest"
                                 >Let's stay connected!
                                 </h2>
-                                <p class="text-white text-xl w-4/5 mt-2 mb-5 tracking-wider font-thin"
+                                <p class="text-yellow-400 text-xl w-4/5 mt-2 mb-5 tracking-wider font-thin"
                                 >Find us on any of these platforms or feel free to
                                     <NuxtLink
                                         to="/contact"
-                                        class="hover:text-yellow-400 text-gray-100"
+                                        class="text-yellow-400 hover:text-gray-100"
                                         >contact
                                     </NuxtLink>
                                 us.

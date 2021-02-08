@@ -68,12 +68,12 @@
         <!-- Left Side -->
         <div class="text-center px-5 md:px-0 lg:w-2/3 xl:w-3/4">
           <h3
-            class="mt-20 mb-10 lg:mb-3 text-gray-700 font-bold tracking-wider text-4xl sm:text-5xl"
+            class="mt-20 mb-10 lg:mb-3 text-gray-800 font-bold tracking-wider text-4xl sm:text-5xl"
             >Gold Cuts Barber Shop
           </h3>
           <div class="">
             <p
-              class="tracking-wide text-gray-600 mt-5 text-lg sm:text-xl md:text-2xl whitespace-pre-line"
+              class="tracking-wide text-gray-700 mt-5 text-lg sm:text-xl md:text-2xl whitespace-pre-line"
               >Gold Cuts first opened in 2017 and has quickly 
               become well known around Chicago, Illinois. We 
               offer a classic barber shop experience, while also 
@@ -84,7 +84,7 @@
               <a href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago" class="hover:text-yellow-400 italic hover:font-bold text-xl sm:text-2xl md:text-3xl">Golden Crisp</a>. We got you covered.
             </p>
             <p
-              class="tracking-wide text-gray-600 mt-5 whitespace-pre-line text-lg sm:text-xl md:text-2xl"
+              class="tracking-wide text-gray-700 mt-5 whitespace-pre-line text-lg sm:text-xl md:text-2xl"
               >We continue to stress the importance of preventing 
               the spread of infection and ask for you to follow the 
               information being circulated by healthcare officials.
@@ -92,7 +92,7 @@
             <div class="mt-8 mb-20 lg:mb-5">
               <a
                 href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago"
-                class="uppercase py-1 px-2 font-semibold tracking-wide text-gray-700 hover:text-yellow-400 focus:text-yellow-500
+                class="uppercase py-1 px-2 font-semibold tracking-wide text-gray-800 hover:text-yellow-400 focus:text-yellow-500
                 text-xl sm:text-2xl md:text-3xl"
                 >Book An Appointment
               </a>
@@ -128,7 +128,7 @@
         <div class="py-10 px-5 flex flex-col lg:flex-row items-center lg:justify-center lg:flex-wrap">
           <!-- Barber 1 -->
           <div class="flex justify-center w-full md:w-6/12 lg:w-3/12 mb-10">
-            <div class="items-center flex flex-col bg-gradient-to-b from-gray-400 to-gray-200 p-1 shadow-lg">
+            <div class="items-center flex flex-col bg-gradient-to-b from-gray-400 to-gray-300 p-1 shadow-lg">
               <img 
                 src="junior.jpg"
                 alt=""
@@ -139,7 +139,7 @@
                   class="mt-2 text-2xl font-bold"
                   >Junior
                 </h5>
-                <div class="my-1">
+                <div class="my-1 pb-2">
                   <a
                     href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago/staffer/331840"
                     class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-400 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
@@ -151,7 +151,7 @@
           </div>
           <!-- Barber 2 -->
           <div class="flex justify-center w-full md:w-6/12 lg:w-3/12 mb-10">
-            <div class="items-center flex flex-col bg-gradient-to-b from-gray-400 to-gray-200 p-1 shadow-lg">
+            <div class="items-center flex flex-col bg-gradient-to-b from-gray-400 to-gray-300 p-1 shadow-lg">
               <img 
                 src="adrian.jpg"
                 alt=""
@@ -162,7 +162,7 @@
                   class="mt-2 text-2xl font-bold"
                   >Adrian
                 </h5>
-                <div class="my-1">
+                <div class="my-1 pb-2">
                   <a
                     href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago/staffer/367500"
                     class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-400 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
@@ -174,7 +174,7 @@
           </div>
           <!-- Barber 3 -->
           <div class="flex justify-center w-full md:w-6/12 lg:w-3/12 mb-10">
-            <div class="items-center flex flex-col bg-gradient-to-b from-gray-400 to-gray-200 p-1 shadow-lg">
+            <div class="items-center flex flex-col bg-gradient-to-b from-gray-400 to-gray-300 p-1 shadow-lg">
               <img 
                 src="brandon.jpg"
                 alt=""
@@ -185,7 +185,7 @@
                   class="mt-2 text-2xl font-bold"
                   >Brandon
                 </h5>
-                <div class="my-1">
+                <div class="my-1 pb-2">
                   <a
                     href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago/staffer/279719"
                     class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-400 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
@@ -205,7 +205,7 @@
 
     <!-- Prices for Cuts -->
     <section>
-      <div class="bg-gradient-to-b from-gray-400 to-gray-700">
+      <div class="bg-gradient-to-b from-gray-300 to-gray-600">
         <div class="flex flex-col lg:flex-row pb-20 lg:py-20 md:px-10 xl:px-20 2xl:px-32">
           <!-- Left Side/ Icon or Picture -->
           <div class="w-1/2 flex justify-center">
@@ -221,21 +221,21 @@
             <div class="">
               <!-- Popular Services -->
               <h2
-                class="mx-auto w-2/3 lg:mx-0 lg:w-11/12 xl:w-full 2xl:w-11/12 mt-20 lg:mt-0 mb-10 text-gray-800 font-bold tracking-wider text-4xl sm:text-5xl 
-                border-b-2 border-gray-900 pb-5"
+                class="mx-auto w-2/3 lg:mx-0 lg:w-11/12 xl:w-full 2xl:w-11/12 mt-20 lg:mt-0 mb-10 text-gray-100 font-bold tracking-wider text-4xl sm:text-5xl 
+                border-b-2 border-gray-100 pb-5"
                 >Barber Services
               </h2>
               <h3
-                class="text-gray-900 font-semibold tracking-widest text-2xl"
+                class="text-gray-100 font-semibold tracking-widest text-2xl"
                 >Popular Services
               </h3>
               <ul>
                 <li
-                  class="text-gray-900 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg mt-2"
+                  class="text-gray-100 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg mt-2"
                   >Barber Hair Cut ( hair lining now included) - <span class="text-yellow-400 font-semibold">$25</span>
                 </li>
                 <li
-                  class="text-gray-900 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg"
+                  class="text-gray-100 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg"
                   >Seniors, kids, military and buzz cut w/ no line up - <span class="text-yellow-400 font-semibold">$18</span>
                 </li>
               </ul>
@@ -243,16 +243,16 @@
             <!-- Other Services -->
             <div class="">
               <h3
-                class="text-gray-900 font-semibold tracking-widest text-2xl mt-5"
+                class="text-gray-100 font-semibold tracking-widest text-2xl mt-5"
                 >Other Services
               </h3>
               <ul>
                 <li
-                  class="text-gray-900 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg mt-2"
+                  class="text-gray-100 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg mt-2"
                   >Barber Hair Cut ( hair lining now included ) - <span class="text-yellow-400 font-semibold">$25</span>
                 </li>
                 <li
-                  class="text-gray-900 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg"
+                  class="text-gray-100 font-medium tracking-widest lg:tracking-wider xl:tracking-widest sm:text-lg"
                   >Seniors, kids, military and buzz cut w/ no line up - <span class="text-yellow-400 font-semibold">$18</span>
                 </li>
               </ul>
@@ -262,7 +262,7 @@
         <!-- Services may vary per barber statement -->
         <div class="text-center px-5 pb-20">
         <h5
-          class="whitespace-pre-line lg:whitespace-normal text-lg sm:text-xl text-gray-900 tracking-wider font-semibold italic"
+          class="whitespace-pre-line lg:whitespace-normal text-lg sm:text-xl text-gray-100 tracking-wider font-semibold italic"
           >At Gold Cuts, our barbers are independent 
           consultants, so prices and services may vary.
         </h5>
@@ -272,7 +272,60 @@
 
     <!-- Time and Location -->
     <section>
-      
+      <div class="lg:pb-20 pt-20 flex flex-col lg:flex-row bg-gradient-to-b from-gray-600 to-gray-700 text-center">
+        <!-- Hours -->
+        <div class="lg:border-b-0 lg:border-r-2 border-b-2 border-white w-5/6 mx-auto">
+          <h2
+            class="uppercase pb-3 font-bold tracking-wider text-4xl md:text-5xl text-white border-b-2 border-white w-3/5 md:w-1/2 mx-auto"
+            >Hours
+          </h2>
+          <h3
+            class="text-xl md:text-2xl xl:text-3xl mt-5 font-semibold tracking-widest text-white"
+            >Monday-Saturday:
+          </h3>
+          <h4
+            class="text-lg md:text-xl xl:text-2xl text-yellow-400 font-medium tracking-widest"
+            >09:30am - 6:30pm
+          </h4>
+          <h3
+            class="text-xl md:text-2xl xl:text-3xl mt-3 font-semibold tracking-widest text-white"
+            >Sunday:
+          </h3>
+          <h4
+            class="text-lg md:text-xl xl:text-2xl text-yellow-400 font-medium tracking-widest"
+            >Closed
+          </h4>
+          <h3
+            class="md:text-lg xl:text-xl mt-10 mb-20 text-yellow-400 tracking-wider font-semibold italic"
+            >*Hours May Vary on Holidays*
+          </h3>
+        </div>
+        <!-- Location -->
+        <div class="mt-20 mb-20 lg:m-0 w-5/6 mx-auto">
+          <h2
+            class="uppercase pb-3 font-bold tracking-wider text-4xl md:text-5xl text-white border-b-2 border-white w-3/5 md:w-1/2 mx-auto"
+            >Location
+          </h2>
+          <h3
+            class="text-xl md:text-2xl xl:text-3xl mt-5 font-semibold tracking-widest text-white"
+            >Address:
+          </h3>
+          <h4
+            class="text-lg md:text-xl xl:text-2xl text-yellow-400 font-medium tracking-widest whitespace-pre-line"
+            >4141 N Broadway St. 
+            Chicago, IL 60613
+          </h4>
+          <h3
+            class="text-xl md:text-2xl xl:text-3xl mt-3 font-semibold tracking-widest text-white"
+            >Phone:
+          </h3>
+          <h4
+            class="text-lg md:text-xl xl:text-2xl text-yellow-400 font-medium tracking-widest"
+            >(312)-783-5812
+          </h4>
+        </div>
+
+      </div>
     </section>
 
     
