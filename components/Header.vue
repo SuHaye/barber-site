@@ -71,6 +71,7 @@
 
 export default {
   name: "navbar",
+  
   data() {
     return {
       showMenu: false
@@ -83,6 +84,7 @@ export default {
     }
     
   },
+
   watch: {
     '$route' () {
       this.showMenu = false

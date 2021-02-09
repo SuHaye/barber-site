@@ -331,6 +331,11 @@
     
   </div>
 </template>
+<script>
+export default {
+  
+}
+</script>
 
 <style>
 			.carousel-open:checked + .carousel-item {
