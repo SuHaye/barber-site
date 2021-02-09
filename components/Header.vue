@@ -14,8 +14,8 @@
                 >Gold Cuts
                 </NuxtLink>
                 <button 
-                class="mr-10 text-white hover:text-yellow-400 cursor-pointer text-xl leading-none border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" 
-                type="button" 
+                class="mr-10 text-white hover:text-yellow-400 cursor-pointer text-xl leading-none border border-solid border-transparent 
+                rounded bg-transparent block lg:hidden outline-none focus:outline-none" 
                 v-on:click="toggleNavbar()"
                 >
                 <fa-icon class="text-4xl" :icon="['fas','bars']" />
@@ -33,28 +33,28 @@
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
                         to="/contact"
-                        >CONTACT 
+                        >ABOUT
                         </NuxtLink> 
                     </li>
                     <li class="">
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
                         to="/events"
-                        >EVENTS
+                        >BARBERS
                         </NuxtLink>
                     </li>
                     <li class="">
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
                         to="/about"
-                        >ABOUT US
+                        >CONTACT
                         </NuxtLink>
                     </li>
                     <li class="">
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
                         to="/practice"
-                        >APPOINTMENT
+                        >BOOK NOW
                         </NuxtLink>
                     </li>
                 </ul>
@@ -70,7 +70,7 @@
 <script>
 
 export default {
-  name: "blue-navbar",
+  name: "navbar",
   data() {
     return {
       showMenu: false
@@ -80,8 +80,13 @@ export default {
   methods: {
     toggleNavbar: function(){
       this.showMenu = !this.showMenu;
-    },
+    }
     
+  },
+  watch: {
+    '$route' () {
+      this.showMenu = false
+    }
   }
 }
 </script>

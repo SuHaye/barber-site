@@ -51,7 +51,13 @@
                                 <NuxtLink
                                     to="/"
                                     class="hover:text-yellow-400 text-gray-200"
-                                    >Home 
+                                    >About Us
+                                </NuxtLink>
+                                <span class="lg:hidden text-gray-200">|</span>
+                                <NuxtLink
+                                    to="/"
+                                    class="hover:text-yellow-400 text-gray-200"
+                                    >Barbers
                                 </NuxtLink>
                                 <span class="lg:hidden text-gray-200">|</span>
                                 <NuxtLink
@@ -62,14 +68,8 @@
                                 <span class="lg:hidden text-gray-200">|</span>
                                 <NuxtLink
                                     to="/"
-                                    class="hover:text-yellow-400 text-gray-200"
-                                    >Events
-                                </NuxtLink>
-                                <span class="lg:hidden text-gray-200">|</span>
-                                <NuxtLink
-                                    to="/"
                                     class="hidden lg:inline-block hover:text-yellow-400 text-gray-200"
-                                    >About Us
+                                    >Book Now
                                 </NuxtLink>
                                 <NuxtLink
                                     to="/"
@@ -93,7 +93,7 @@
                             <NuxtLink
                                 to=""
                                 class="hover:text-yellow-400 text-gray-200"
-                                >Pool Locations
+                                >Our Location
                             </NuxtLink>
                             <NuxtLink
                                 to="/"
@@ -108,7 +108,7 @@
                             <NuxtLink
                                 to="/"
                                 class="hover:text-yellow-400 text-gray-200"
-                                >MIT License
+                                >Licenses
                             </NuxtLink>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                 </div>
             </div>
             <!-- Copyright Info. -->
-            <div class="items-center justify-center py-6 bg-gray-900">
+            <div class="items-center justify-center py-6 bg-gray-800">
                 <div class="flex flex-wrap items-center justify-center mx-auto">
                     <p class="mr-5 text-sm text-center text-gray-100">© Your Company — 2021
                     </p>
