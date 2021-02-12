@@ -1,19 +1,22 @@
 <template>
   <div
     id="mainCarousel"
-    class="pt-28 d-flex flex-column justify-content-between align-items-between h-screen"
+    class="pt-28  h-screen"
   >
     <div
-      class="d-flex justify-content-around align-items-center"
+      class="flex justify-between h-full"
     >
       <a
         @mouseover="stopRotation()"
         @mouseleave="startRotation()"
         @click="prev"
-        class="bg-white"
+        role="button"
+        class="my-auto"
         animation="fade"
         font-scale="3"
-      >Previous</a>
+      >
+      <fa-icon class="text-5xl pt-3 text-yellow-400 h-full" :icon="['fas','chevron-left']" />
+      </a>
       
       <div 
         v-for="number in [currentNumber]" 
@@ -26,10 +29,13 @@
         @mouseover="stopRotation()"
         @mouseleave="startRotation()"
         @click="next"
-        class="bg-white"
+        role="button"
+        class="my-auto"
         animation="fade"
         font-scale="3"
-      >Next</a>
+      >
+      <fa-icon class="text-5xl pt-3 text-yellow-400 h-full" :icon="['fas','chevron-right']" />
+      </a>
     </div>
   </div>
 </template>
@@ -39,12 +45,6 @@ export default {
   name: "carousel",
   data() {
     return {
-      messages: [
-        "1",
-        "2",
-        "3",
-        "4",
-      ],
       currentNumber: 0,
       timer: null
     };
@@ -131,18 +131,30 @@ export default {
 .backSlide {
   background-image: url("../static/article1.jpg");
   animation: opacBack1 1s ease-in-out;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .backSlide1 {
   background-image: url("../static/slide-1.jpg");
   animation: opacBack2 1s ease-in-out;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .backSlide2 {
   background-image: url("../static/slide-2.jpg");
   animation: opacBack3 1s ease-in-out;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .backSlide3 {
   background-image: url("../static/slide-3.jpg");
   animation: opacBack4 1s ease-in-out;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @keyframes opacBack1 {
