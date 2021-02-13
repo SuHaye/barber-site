@@ -5,7 +5,7 @@
 
     <!-- First Section/ About Company-->
     <section>
-      <div class="flex flex-col lg:flex-row pb-20 lg:py-20 md:px-10 xl:px-20 2xl:px-32 bg-gradient-to-b from-gray-200 to-gray-400">
+      <div id="about" class="lg:h-screen h-full lg:items-center flex flex-col lg:flex-row pb-20 py-10 lg:py-20 md:px-10 xl:px-20 2xl:px-32 bg-gradient-to-b from-gray-200 to-gray-400">
         <!-- Left Side -->
         <div class="text-center px-5 md:px-0 lg:w-2/3 xl:w-3/4">
           <h3
@@ -55,8 +55,9 @@
 
     <!-- Second Section/ Barbers and Contact -->
     <section>
-      <div 
-        class="h-full bg-fixed bg-center bg-cover"
+      <div
+        id="barber"
+        class="h-full py-20 lg:py-40 bg-fixed bg-center bg-cover"
         style='background-image: url("../section-22.jpg");'
         >
         <div class="">
@@ -213,7 +214,7 @@
 
     <!-- Time and Location -->
     <section>
-      <div class="lg:pb-20 pt-20 flex flex-col lg:flex-row bg-gradient-to-b from-gray-600 to-gray-700 text-center">
+      <div id="contact" class="lg:h-screen lg:items-center lg:pb-20 pt-28 flex flex-col lg:flex-row bg-gradient-to-b from-gray-600 to-gray-700 text-center">
         <!-- Hours -->
         <div class="lg:border-b-0 lg:border-r-2 border-b-2 border-white w-5/6 mx-auto">
           <h2

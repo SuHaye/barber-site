@@ -32,30 +32,30 @@
                     <li class="">
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
-                        to="/contact"
+                        to="#about"
                         >ABOUT
                         </NuxtLink> 
                     </li>
                     <li class="">
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
-                        to="/events"
+                        to="#barber"
                         >BARBERS
                         </NuxtLink>
                     </li>
                     <li class="">
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
-                        to="/about"
+                        to="#contact"
                         >CONTACT
                         </NuxtLink>
                     </li>
                     <li class="">
-                        <NuxtLink 
+                        <a 
                         class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
-                        to="/practice"
+                        href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago"
                         >BOOK NOW
-                        </NuxtLink>
+                        </a>
                     </li>
                 </ul>
 

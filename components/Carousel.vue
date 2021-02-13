@@ -1,10 +1,10 @@
 <template>
   <div
     id="mainCarousel"
-    class="pt-28  h-screen"
+    class="pt-28 h-screen"
   >
     <div
-      class="flex justify-between h-full"
+      class="flex justify-between h-full pb-28"
     >
       <a
         @mouseover="stopRotation()"
@@ -15,7 +15,7 @@
         animation="fade"
         font-scale="3"
       >
-      <fa-icon class="text-5xl pt-3 text-yellow-400 h-full" :icon="['fas','chevron-left']" />
+      <fa-icon class="text-8xl pt-3 text-yellow-400 h-full" :icon="['fas','chevron-left']" />
       </a>
       
       <div 
@@ -34,7 +34,7 @@
         animation="fade"
         font-scale="3"
       >
-      <fa-icon class="text-5xl pt-3 text-yellow-400 h-full" :icon="['fas','chevron-right']" />
+      <fa-icon class="text-8xl pt-3 text-yellow-400 h-full" :icon="['fas','chevron-right']" />
       </a>
     </div>
   </div>
