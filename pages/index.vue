@@ -3,6 +3,7 @@
     
     <Carousel />
 
+  
     <!-- First Section/ About Company-->
     <section>
       <div id="about" class="lg:h-screen h-full lg:items-center flex flex-col lg:flex-row pb-20 py-10 lg:py-20 md:px-10 xl:px-20 2xl:px-32 bg-gradient-to-b from-gray-200 to-gray-400">
@@ -44,6 +45,7 @@
         <div class="md:mx-auto md:w-3/4 lg:w-1/3 xl:w-7/12 xl:p-10 lg:my-auto lg:p-2 xl:p-0 lg:mr-3 xl:mr-0">
           <div class="">
             <img
+              id="example"
               alt="..."
               src="article1.jpg"
               class="h-80 lg:h-96 w-full md:rounded-md shadow-lg"
@@ -273,8 +275,20 @@
     
   </div>
 </template>
+
+
 <script>
+import gsap from 'gsap';
+
 export default {
-  
+    mounted() {
+        this.example()
+    },
+    methods: {
+        example() {
+            gsap.from('#example', { duration: 3, opacity:0})
+            gsap.to('#example', { duration: 2, ease:"back", y:30});
+        },
+    },
 }
 </script>
