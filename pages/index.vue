@@ -1,14 +1,17 @@
 <template>
-  <div class="bg-gray-200">
-    
-    <Carousel />
 
-  
+  <div  id="container" class="relative h-screen">
+    
+    <section class="section1 h-screen w-full absolute top-0 left-0">
+    <Carousel/>
+    </section>
+
     <!-- First Section/ About Company-->
-    <section>
-      <div id="about" class="lg:h-screen h-full lg:items-center flex flex-col lg:flex-row pb-20 py-10 lg:py-20 md:px-10 xl:px-20 2xl:px-32 bg-gradient-to-b from-gray-200 to-gray-400">
+    <section id="about" class="section2 h-full w-full absolute top-0 left-0">
+      <div class="lg:h-screen h-full justify-center lg:items-center flex flex-col lg:flex-row
+       pb-20 py-20 lg:py-20 md:px-10 xl:px-20 2xl:px-32 bg-gradient-to-b from-gray-100 to-gray-600">
         <!-- Left Side -->
-        <div class="text-center px-5 md:px-0 lg:w-2/3 xl:w-3/4">
+        <div class="el text-center px-5 md:px-0 lg:w-2/3 xl:w-3/4">
           <h3
             class="mt-20 mb-10 lg:mb-3 text-gray-800 font-bold tracking-wider text-4xl sm:text-5xl"
             >Gold Cuts Barber Shop
@@ -31,7 +34,7 @@
               the spread of infection and ask for you to follow the 
               information being circulated by healthcare officials.
             </p>
-            <div class="mt-8 mb-20 lg:mb-5">
+            <div class="mt-8 mt-10 lg:mb-5">
               <a
                 href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago"
                 class="uppercase py-1 px-2 font-semibold tracking-wide text-gray-800 hover:text-yellow-400 focus:text-yellow-500
@@ -42,10 +45,9 @@
           </div>
         </div>
         <!-- Right Side -->
-        <div class="md:mx-auto md:w-3/4 lg:w-1/3 xl:w-7/12 xl:p-10 lg:my-auto lg:p-2 xl:p-0 lg:mr-3 xl:mr-0">
-          <div class="">
+        <div class="el md:mx-auto md:w-3/4 lg:w-1/3 xl:w-7/12 xl:p-10 lg:my-auto lg:p-2 xl:p-0 lg:mr-3 xl:mr-0">
+          <div class="hidden lg:flex">
             <img
-              id="example"
               alt="..."
               src="article1.jpg"
               class="h-80 lg:h-96 w-full md:rounded-md shadow-lg"
@@ -56,20 +58,20 @@
     </section>
 
     <!-- Second Section/ Barbers and Contact -->
-    <section>
+    <section class="section3 h-full w-full absolute top-0 left-0">
       <div
         id="barber"
-        class="h-full py-20 lg:py-40 bg-fixed bg-center bg-cover"
-        style='background-image: url("../section-22.jpg");'
+        class="h-full py-20 lg:py-40 bg-fixed bg-center bg-cover bg-gradient-to-b from-gray-600 to-gray-100 
+        overflow-scroll lg:overflow-visible"
         >
-        <div class="">
+        <div class="el">
           <h2
             class="pt-20 p-10 text-6xl font-bold uppercase text-center text-gray-800"
             >Barbers
           </h2>
         </div>
 
-        <div class="py-10 px-5 flex flex-col lg:flex-row items-center lg:justify-center lg:flex-wrap">
+        <div class="el py-10 px-5 flex flex-col lg:flex-row items-center lg:justify-center lg:flex-wrap">
           <!-- Barber 1 -->
           <div class="flex justify-center w-full md:w-6/12 lg:w-3/12 mb-10">
             <div class="items-center flex flex-col bg-gradient-to-b from-gray-400 to-gray-300 p-1 shadow-lg">
@@ -148,11 +150,11 @@
     </section>
 
     <!-- Prices for Cuts -->
-    <section>
-      <div class="bg-gradient-to-b from-gray-300 to-gray-600">
-        <div class="flex flex-col lg:flex-row pb-20 lg:py-20 md:px-10 xl:px-20 2xl:px-32">
+    <section class="section4 h-full w-full absolute top-0 left-0">
+      <div class="bg-gradient-to-r from-gray-600 to-gray-400 h-full">
+        <div class="flex flex-col lg:flex-row justify-center h-full md:px-10 xl:px-20 2xl:px-32">
           <!-- Left Side/ Icon or Picture -->
-          <div class="w-1/2 flex justify-center">
+          <div class="el w-1/2 flex justify-center">
             <img 
               class="hidden lg:inline-block md:rounded-md shadow-lg h-96 w-80 my-auto"
               src="priceimage.jpg"
@@ -160,7 +162,7 @@
             >
           </div>
           <!-- Right Side/ Prices -->
-          <div class="lg:w-2/3 xl:w-1/2 flex flex-col justify-center text-center lg:text-left">
+          <div class="el lg:w-2/3 xl:w-1/2 flex flex-col justify-center text-center lg:text-left">
             <!-- Haircuts & Combos -->
             <div class="">
               <!-- Popular Services -->
@@ -203,22 +205,15 @@
             </div>
           </div>
         </div>
-        <!-- Services may vary per barber statement -->
-        <div class="text-center px-5 pb-20">
-        <h5
-          class="whitespace-pre-line lg:whitespace-normal text-lg sm:text-xl text-gray-100 tracking-wider font-semibold italic"
-          >At Gold Cuts, our barbers are independent 
-          consultants, so prices and services may vary.
-        </h5>
-        </div>
       </div>
     </section>
 
     <!-- Time and Location -->
-    <section>
-      <div id="contact" class="lg:h-screen lg:items-center lg:pb-20 pt-28 flex flex-col lg:flex-row bg-gradient-to-b from-gray-600 to-gray-700 text-center">
+    <section class="section5 h-full w-full absolute top-0 left-0">
+      <div id="contact" class="lg:items-center lg:pb-20 pt-28 h-full justify-center flex flex-col 
+      lg:flex-row bg-gradient-to-b from-gray-500 to-gray-700 text-center">
         <!-- Hours -->
-        <div class="lg:border-b-0 lg:border-r-2 border-b-2 border-white w-5/6 mx-auto">
+        <div class="lg:border-b-0 lg:border-r-2 border-b-2 border-white w-5/6 mx-auto lg:pt-28">
           <h2
             class="uppercase pb-3 font-bold tracking-wider text-4xl md:text-5xl text-white border-b-2 border-white w-3/5 md:w-1/2 mx-auto"
             >Hours
@@ -279,16 +274,44 @@
 
 <script>
 import gsap from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+if (process.client) {
+  gsap.registerPlugin(ScrollTrigger);
+}
+
 
 export default {
-    mounted() {
-        this.example()
-    },
-    methods: {
-        example() {
-            gsap.from('#example', { duration: 3, opacity:0})
-            gsap.to('#example', { duration: 2, ease:"back", y:30});
-        },
-    },
+
+  mounted(){
+    gsap.defaults({ease:"none", duration:2});
+    
+    // create timeline with scrollTrigger
+    let tl = gsap.timeline({
+      scrollTrigger:{
+        trigger: "#container",
+        start: "top top",
+        pin: true,
+        anticipatePin: 1,
+        scrub: 0.4,
+        snap: 1 / 4,
+        end: () => "+=" +
+        document.querySelector("#container").offsetWidth
+      }
+    })
+    .from(".section2", {
+        xPercent: -100
+    })
+    .from(".section3", {
+        yPercent: 100
+    })
+    .from(".section4", {
+        xPercent: 100
+    })
+    .from(".section5", {
+        yPercent: -100
+    });
+  },
+
 }
 </script>

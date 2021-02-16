@@ -1,7 +1,8 @@
 <template>
 
     <!-- Main Nav Container -->
-    <nav class="z-50 h-auto w-full xl:px-10 bg-gray-700 flex flex-wrap items-center justify-between navbar-expand-lg fixed shadow-lg hover:shadow-xl">
+    <nav class="z-50 h-auto w-full xl:px-10 bg-gray-700 flex flex-wrap items-center justify-between 
+    navbar-expand-lg fixed">
         <!-- Container Holds All of the Content -->
         <div class="container mx-auto flex flex-wrap items-center pt-2 rounded-b-xl"
         v-bind:class="{'bg-transparent': !showMenu, 'bg-gray-700': showMenu}">

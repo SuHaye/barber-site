@@ -1,7 +1,7 @@
 <template>
   <div
     id="mainCarousel"
-    class="pt-28 h-screen"
+    class="h-screen"
   >
     <div
       class="flex justify-between h-full pb-28"
