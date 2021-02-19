@@ -7,11 +7,11 @@
     </section>
 
     <!-- First Section/ About Company-->
-    <section id="about" class="section2 h-full w-full absolute top-0 left-0">
+    <section  class="section2 h-full w-full absolute top-0 left-0">
       <div class="lg:h-screen h-full justify-center lg:items-center flex flex-col lg:flex-row
        pb-20 py-20 lg:py-20 md:px-10 xl:px-20 2xl:px-32 bg-gradient-to-b from-gray-100 to-gray-600">
         <!-- Left Side -->
-        <div class="el text-center px-5 md:px-0 lg:w-2/3 xl:w-3/4">
+        <div class="text-center px-5 md:px-0 lg:w-2/3 xl:w-3/4">
           <h3
             class="mt-20 mb-10 lg:mb-3 text-gray-800 font-bold tracking-wider text-4xl sm:text-5xl"
             >Gold Cuts Barber Shop
@@ -45,7 +45,7 @@
           </div>
         </div>
         <!-- Right Side -->
-        <div class="el md:mx-auto md:w-3/4 lg:w-1/3 xl:w-7/12 xl:p-10 lg:my-auto lg:p-2 xl:p-0 lg:mr-3 xl:mr-0">
+        <div class="md:mx-auto md:w-3/4 lg:w-1/3 xl:w-7/12 xl:p-10 lg:my-auto lg:p-2 xl:p-0 lg:mr-3 xl:mr-0">
           <div class="hidden lg:flex">
             <img
               alt="..."
@@ -64,14 +64,14 @@
         class="h-full py-20 lg:py-40 bg-fixed bg-center bg-cover bg-gradient-to-b from-gray-600 to-gray-100 
         overflow-scroll lg:overflow-visible"
         >
-        <div class="el">
+        <div class="">
           <h2
             class="pt-20 p-10 text-6xl font-bold uppercase text-center text-gray-800"
             >Barbers
           </h2>
         </div>
 
-        <div class="el py-10 px-5 flex flex-col lg:flex-row items-center lg:justify-center lg:flex-wrap">
+        <div class="py-10 px-5 flex flex-col lg:flex-row items-center lg:justify-center lg:flex-wrap">
           <!-- Barber 1 -->
           <div class="flex justify-center w-full md:w-6/12 lg:w-3/12 mb-10">
             <div class="items-center flex flex-col bg-gradient-to-b from-gray-400 to-gray-300 p-1 shadow-lg">
@@ -154,7 +154,7 @@
       <div class="bg-gradient-to-r from-gray-600 to-gray-400 h-full">
         <div class="flex flex-col lg:flex-row justify-center h-full md:px-10 xl:px-20 2xl:px-32">
           <!-- Left Side/ Icon or Picture -->
-          <div class="el w-1/2 flex justify-center">
+          <div class="w-1/2 flex justify-center">
             <img 
               class="hidden lg:inline-block md:rounded-md shadow-lg h-96 w-80 my-auto"
               src="priceimage.jpg"
@@ -162,7 +162,7 @@
             >
           </div>
           <!-- Right Side/ Prices -->
-          <div class="el lg:w-2/3 xl:w-1/2 flex flex-col justify-center text-center lg:text-left">
+          <div class="lg:w-2/3 xl:w-1/2 flex flex-col justify-center text-center lg:text-left">
             <!-- Haircuts & Combos -->
             <div class="">
               <!-- Popular Services -->
@@ -284,7 +284,7 @@ if (process.client) {
 export default {
 
   mounted(){
-    gsap.defaults({ease:"none", duration:2});
+    gsap.defaults({ease:"none", duration:0.5});
     
     // create timeline with scrollTrigger
     let tl = gsap.timeline({
@@ -293,7 +293,7 @@ export default {
         start: "top top",
         pin: true,
         anticipatePin: 1,
-        scrub: 0.4,
+        scrub: 2,
         snap: 1 / 4,
         end: () => "+=" +
         document.querySelector("#container").offsetWidth

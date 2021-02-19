@@ -26,7 +26,7 @@
             <!-- Content on Right Side of Screen -->
             <div 
             v-bind:class="{'hidden': !showMenu, 'flex': showMenu}" 
-            class="lg:flex lg:flex-grow flex-col 2xl:text-xl mx-5"
+            class="lg:flex lg:flex-grow flex-col 2xl:text-xl mx-5 pb-5"
             >
                 <!-- List of Links -->
                 <ul class="flex flex-col lg:flex-row tracking-widest lg:ml-auto">
@@ -34,28 +34,28 @@
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
                         to="#about"
-                        >ABOUT
+                        >About
                         </NuxtLink> 
                     </li>
                     <li class="">
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
                         to="#barber"
-                        >BARBERS
+                        >Barbers
                         </NuxtLink>
                     </li>
                     <li class="">
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
                         to="#contact"
-                        >CONTACT
+                        >Contact
                         </NuxtLink>
                     </li>
                     <li class="">
                         <a 
                         class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
                         href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago"
-                        >BOOK NOW
+                        >Book Now
                         </a>
                     </li>
                 </ul>

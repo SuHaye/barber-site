@@ -50,6 +50,7 @@ export default {
     };
   },
   created() {},
+  
   mounted: function() {
     this.load();
     this.startRotation();
