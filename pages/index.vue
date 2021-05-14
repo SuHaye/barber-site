@@ -1,15 +1,19 @@
 <template>
 
-  <div  id="container" class="relative h-screen">
+  <div  id="container" class="relative h-full">
     
-    <section class="section1 h-screen w-full absolute top-0 left-0">
-    <Carousel/>
+    <section class="section1 h-full w-full">
+      <div id="home">
+        <Carousel/>
+      </div>
     </section>
 
     <!-- First Section/ About Company-->
-    <section  class="section2 h-full w-full absolute top-0 left-0">
-      <div class="lg:h-screen h-full justify-center lg:items-center flex flex-col lg:flex-row
-       pb-20 py-20 lg:py-20 md:px-10 xl:px-20 2xl:px-32 bg-gradient-to-b from-gray-100 to-gray-600">
+    <section  class="section2 h-screen w-full">
+      <div 
+        id="about"
+        class="lg:h-screen h-full justify-center lg:items-center flex flex-col lg:flex-row
+       pb-20 py-20 lg:py-20 md:px-10 xl:px-20 2xl:px-32 bg-gradient-to-b from-gray-300 to-gray-600">
         <!-- Left Side -->
         <div class="text-center px-5 md:px-0 lg:w-2/3 xl:w-3/4">
           <h3
@@ -58,10 +62,10 @@
     </section>
 
     <!-- Second Section/ Barbers and Contact -->
-    <section class="section3 h-full w-full absolute top-0 left-0">
+    <section class="section3 h-screen w-full">
       <div
         id="barber"
-        class="h-full py-20 lg:py-40 bg-fixed bg-center bg-cover bg-gradient-to-b from-gray-600 to-gray-100 
+        class="h-full py-20 lg:py-40 bg-fixed bg-center bg-cover bg-gradient-to-b from-gray-400 to-gray-200 
         overflow-scroll lg:overflow-visible"
         >
         <div class="">
@@ -85,7 +89,7 @@
                   class="mt-2 text-2xl font-bold"
                   >Junior
                 </h5>
-                <div class="my-1 pb-2">
+                <div class="my-1 py-2">
                   <a
                     href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago/staffer/331840"
                     class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-400 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
@@ -108,7 +112,7 @@
                   class="mt-2 text-2xl font-bold"
                   >Adrian
                 </h5>
-                <div class="my-1 pb-2">
+                <div class="my-1 py-2">
                   <a
                     href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago/staffer/367500"
                     class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-400 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
@@ -131,7 +135,7 @@
                   class="mt-2 text-2xl font-bold"
                   >Brandon
                 </h5>
-                <div class="my-1 pb-2">
+                <div class="my-1 py-2">
                   <a
                     href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago/staffer/279719"
                     class="uppercase font-medium text-lg text-gray-700 hover:text-yellow-400 font-thin border-2 border-gray-700 hover:border-yellow-500 hover:bg-gray-100 rounded-md p-1"
@@ -150,8 +154,8 @@
     </section>
 
     <!-- Prices for Cuts -->
-    <section class="section4 h-full w-full absolute top-0 left-0">
-      <div class="bg-gradient-to-r from-gray-600 to-gray-400 h-full">
+    <section class="section4 h-screen w-full">
+      <div class="bg-gradient-to-b from-gray-500 to-gray-300 h-full">
         <div class="flex flex-col lg:flex-row justify-center h-full md:px-10 xl:px-20 2xl:px-32">
           <!-- Left Side/ Icon or Picture -->
           <div class="w-1/2 flex justify-center">
@@ -209,9 +213,11 @@
     </section>
 
     <!-- Time and Location -->
-    <section class="section5 h-full w-full absolute top-0 left-0">
-      <div id="contact" class="lg:items-center lg:pb-20 pt-28 h-full justify-center flex flex-col 
-      lg:flex-row bg-gradient-to-b from-gray-500 to-gray-700 text-center">
+    <section class="section5 h-screen w-full">
+      <div 
+        id="contact" 
+        class="lg:items-center lg:pb-20 pt-28 h-full justify-center flex flex-col 
+        lg:flex-row bg-gradient-to-b from-gray-300 to-gray-700 text-center">
         <!-- Hours -->
         <div class="lg:border-b-0 lg:border-r-2 border-b-2 border-white w-5/6 mx-auto lg:pt-28">
           <h2
@@ -273,45 +279,7 @@
 
 
 <script>
-import gsap from 'gsap';
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-if (process.client) {
-  gsap.registerPlugin(ScrollTrigger);
-}
-
-
 export default {
-
-  mounted(){
-    gsap.defaults({ease:"none", duration:0.5});
-    
-    // create timeline with scrollTrigger
-    let tl = gsap.timeline({
-      scrollTrigger:{
-        trigger: "#container",
-        start: "top top",
-        pin: true,
-        anticipatePin: 1,
-        scrub: 2,
-        snap: 1 / 4,
-        end: () => "+=" +
-        document.querySelector("#container").offsetWidth
-      }
-    })
-    .from(".section2", {
-        xPercent: -100
-    })
-    .from(".section3", {
-        yPercent: 100
-    })
-    .from(".section4", {
-        xPercent: 100
-    })
-    .from(".section5", {
-        yPercent: -100
-    });
-  },
 
 }
 </script>

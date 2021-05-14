@@ -15,7 +15,7 @@
         animation="fade"
         font-scale="3"
       >
-      <fa-icon class="text-8xl pt-3 text-yellow-400 h-full" :icon="['fas','chevron-left']" />
+      <fa-icon class="text-8xl pt-3 text-yellow-400 h-screen" :icon="['fas','chevron-left']" />
       </a>
       
       <div 
@@ -34,7 +34,7 @@
         animation="fade"
         font-scale="3"
       >
-      <fa-icon class="text-8xl pt-3 text-yellow-400 h-full" :icon="['fas','chevron-right']" />
+      <fa-icon class="text-8xl pt-3 text-yellow-400 h-screen" :icon="['fas','chevron-right']" />
       </a>
     </div>
   </div>

@@ -9,9 +9,9 @@
 
             <!-- Content on Left Side and Mobile Dropdown Button -->
             <div class="w-full relative flex justify-between lg:w-auto lg:block lg:justify-start">
-                <NuxtLink 
-                class="text-yellow-400 text-3xl lg:text-4xl font-bold leading-relaxed inline-block m-3 p-2" 
-                to="/"
+                <NuxtLink
+                class="link text-yellow-400 text-3xl lg:text-4xl font-bold leading-relaxed inline-block m-3 p-2" 
+                to="#home"
                 >Gold Cuts
                 </NuxtLink>
                 <button 
@@ -26,27 +26,27 @@
             <!-- Content on Right Side of Screen -->
             <div 
             v-bind:class="{'hidden': !showMenu, 'flex': showMenu}" 
-            class="lg:flex lg:flex-grow flex-col 2xl:text-xl mx-5 pb-5"
+            class="lg:flex lg:flex-grow flex-col 2xl:text-xl mx-5 pb-5 lg:pb-0"
             >
                 <!-- List of Links -->
                 <ul class="flex flex-col lg:flex-row tracking-widest lg:ml-auto">
                     <li class="">
                         <NuxtLink 
-                        class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
+                        class="link flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
                         to="#about"
                         >About
                         </NuxtLink> 
                     </li>
                     <li class="">
                         <NuxtLink 
-                        class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
+                        class="link flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
                         to="#barber"
                         >Barbers
                         </NuxtLink>
                     </li>
                     <li class="">
                         <NuxtLink 
-                        class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
+                        class="link flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-yellow-400" 
                         to="#contact"
                         >Contact
                         </NuxtLink>
@@ -71,25 +71,20 @@
 <script>
 
 export default {
-  name: "navbar",
   
   data() {
+
     return {
-      showMenu: false
+      showMenu: false,
     }
   },
-  
+
   methods: {
     toggleNavbar: function(){
       this.showMenu = !this.showMenu;
     }
-    
-  },
-
-  watch: {
-    '$route' () {
-      this.showMenu = false
-    }
   }
+
+ 
 }
 </script>
