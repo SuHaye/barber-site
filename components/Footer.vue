@@ -76,12 +76,6 @@
                                     class="lg:hidden hover:text-yellow-400 text-gray-200"
                                     >Locations
                                 </NuxtLink>
-                                <span class="lg:hidden text-gray-200">|</span>
-                                <NuxtLink
-                                    to="/"
-                                    class="lg:hidden hover:text-yellow-400 text-gray-200"
-                                    >Safe Sport
-                                </NuxtLink>
                             </div>
                         </div>
                         <div class="hidden lg:flex lg:flex-col text-center mt-10 lg:mt-0">

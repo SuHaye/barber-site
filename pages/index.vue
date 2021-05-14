@@ -13,7 +13,7 @@
       <div 
         id="about"
         class="lg:h-screen h-full justify-center lg:items-center flex flex-col lg:flex-row
-       pb-20 py-20 lg:py-20 md:px-10 xl:px-20 2xl:px-32 bg-gradient-to-b from-gray-300 to-gray-600">
+       pb-20 py-20 lg:py-20 md:px-10 xl:px-20 2xl:px-32 bg-gradient-to-b from-gray-300 to-gray-500">
         <!-- Left Side -->
         <div class="text-center px-5 md:px-0 lg:w-2/3 xl:w-3/4">
           <h3
@@ -62,11 +62,10 @@
     </section>
 
     <!-- Second Section/ Barbers and Contact -->
-    <section class="section3 h-screen w-full">
+    <section class="section3 h-full lg:h-screen w-full">
       <div
         id="barber"
-        class="h-full py-20 lg:py-40 bg-fixed bg-center bg-cover bg-gradient-to-b from-gray-400 to-gray-200 
-        overflow-scroll lg:overflow-visible"
+        class="h-full py-20 lg:py-40 bg-fixed bg-center bg-cover bg-gradient-to-b from-gray-400 to-gray-200"
         >
         <div class="">
           <h2
@@ -155,7 +154,7 @@
 
     <!-- Prices for Cuts -->
     <section class="section4 h-screen w-full">
-      <div class="bg-gradient-to-b from-gray-500 to-gray-300 h-full">
+      <div class="bg-gradient-to-b from-gray-500 to-gray-400 h-full">
         <div class="flex flex-col lg:flex-row justify-center h-full md:px-10 xl:px-20 2xl:px-32">
           <!-- Left Side/ Icon or Picture -->
           <div class="w-1/2 flex justify-center">
@@ -217,7 +216,7 @@
       <div 
         id="contact" 
         class="lg:items-center lg:pb-20 pt-28 h-full justify-center flex flex-col 
-        lg:flex-row bg-gradient-to-b from-gray-300 to-gray-700 text-center">
+        lg:flex-row bg-gradient-to-b from-gray-400 to-gray-700 text-center">
         <!-- Hours -->
         <div class="lg:border-b-0 lg:border-r-2 border-b-2 border-white w-5/6 mx-auto lg:pt-28">
           <h2
@@ -283,3 +282,14 @@ export default {
 
 }
 </script>
+
+
+<style scoped>
+
+ #barber {
+   background: url(/bricks.jpg);
+   background-repeat: none;
+   background-size:cover;
+ }
+
+</style>
