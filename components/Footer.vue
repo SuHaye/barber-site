@@ -12,7 +12,7 @@
                                 <p class="text-yellow-400 text-xl w-4/5 mt-2 mb-5 tracking-wider font-thin"
                                 >Find us on any of these platforms or feel free to
                                     <NuxtLink
-                                        to="/contact"
+                                        to="#contact"
                                         class="text-yellow-400 hover:text-gray-100"
                                         >contact
                                     </NuxtLink>
@@ -49,30 +49,30 @@
                             <hr class="hidden lg:block my-2">
                             <div class="text-white lg:flex-col flex justify-evenly">
                                 <NuxtLink
-                                    to="/"
+                                    to="#about"
                                     class="hover:text-yellow-400 text-gray-200"
                                     >About Us
                                 </NuxtLink>
                                 <span class="lg:hidden text-gray-200">|</span>
                                 <NuxtLink
-                                    to="/"
+                                    to="#barbers"
                                     class="hover:text-yellow-400 text-gray-200"
                                     >Barbers
                                 </NuxtLink>
                                 <span class="lg:hidden text-gray-200">|</span>
                                 <NuxtLink
-                                    to="/"
+                                    to="#contact"
                                     class="hover:text-yellow-400 text-gray-200"
                                     >Contact
                                 </NuxtLink>
                                 <span class="lg:hidden text-gray-200">|</span>
-                                <NuxtLink
-                                    to="/"
+                                <a
+                                    href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago"
                                     class="hidden lg:inline-block hover:text-yellow-400 text-gray-200"
                                     >Book Now
-                                </NuxtLink>
+                                </a>
                                 <NuxtLink
-                                    to="/"
+                                    to="#contact"
                                     class="lg:hidden hover:text-yellow-400 text-gray-200"
                                     >Locations
                                 </NuxtLink>
@@ -85,7 +85,7 @@
                             </h2>
                             <hr class="hidden lg:block my-2">
                             <NuxtLink
-                                to=""
+                                to="#contact"
                                 class="hover:text-yellow-400 text-gray-200"
                                 >Our Location
                             </NuxtLink>

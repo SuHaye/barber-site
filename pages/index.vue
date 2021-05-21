@@ -69,7 +69,7 @@
         >
         <div class="">
           <h2
-            class="pt-20 p-10 text-6xl font-bold uppercase text-center text-gray-800"
+            class="pt-20 p-10 text-8xl font-bold uppercase text-center text-gray-800"
             >Barbers
           </h2>
         </div>
