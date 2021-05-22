@@ -30,4 +30,10 @@ html {
   margin: 0;
 }
 
+@media screen and (max-width: 462px) {
+    html {
+      width: 462px;
+    }
+}
+
 </style>

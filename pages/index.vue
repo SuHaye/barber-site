@@ -45,16 +45,16 @@
       <div 
         id="about"
         class="lg:h-screen h-full justify-center lg:items-center flex flex-col lg:flex-row
-       pb-20 py-20 lg:py-20 md:px-10 xl:px-20 2xl:px-32 bg-gradient-to-b from-gray-300 to-gray-500">
+       py-20 md:px-10 xl:px-20 2xl:px-32 bg-gradient-to-b from-gray-300 to-gray-500">
         <!-- Left Side -->
         <div class="text-center px-5 md:px-0 lg:w-2/3 xl:w-3/4">
           <h3
-            class="mt-20 mb-10 lg:mb-3 text-gray-800 font-bold tracking-wider text-4xl sm:text-5xl"
+            class="mb-20 lg:mb-3 text-white font-bold tracking-wider text-4xl sm:text-5xl"
             >Gold Cuts Barber Shop
           </h3>
           <div class="">
             <p
-              class="tracking-wide text-gray-700 mt-5 text-lg sm:text-xl md:text-2xl whitespace-pre-line"
+              class="tracking-wide text-gray-100 mt-5 text-lg sm:text-xl md:text-2xl whitespace-pre-line"
               >Gold Cuts first opened in 2017 and has quickly 
               become well known around Chicago, Illinois. We 
               offer a classic barber shop experience, while also 
@@ -62,10 +62,10 @@
               take pride in bringing Old School and New School 
               Styles to the Golden Light! Come in and enjoy a 
               great haircut, a hot towel cleansing and come out 
-              <a href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago" class="hover:text-yellow-400 italic hover:font-bold text-xl sm:text-2xl md:text-3xl">Golden Crisp</a>. We got you covered.
+              <a href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago" class="hover:text-gray-300 italic hover:font-bold text-xl sm:text-2xl md:text-3xl">Golden Crisp</a>. We got you covered.
             </p>
             <p
-              class="tracking-wide text-gray-700 mt-5 whitespace-pre-line text-lg sm:text-xl md:text-2xl"
+              class="tracking-wide text-gray-100 mt-5 whitespace-pre-line text-lg sm:text-xl md:text-2xl"
               >We continue to stress the importance of preventing 
               the spread of infection and ask for you to follow the 
               information being circulated by healthcare officials.
@@ -73,7 +73,7 @@
             <div class="mt-8 mt-10 lg:mb-5">
               <a
                 href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago"
-                class="uppercase py-1 px-2 font-semibold tracking-wide text-gray-800 hover:text-yellow-400 focus:text-yellow-500
+                class="uppercase py-1 px-2 font-semibold tracking-wide text-white hover:text-gray-300 focus:text-yellow-500
                 text-xl sm:text-2xl md:text-3xl"
                 >Book An Appointment
               </a>
@@ -101,7 +101,7 @@
         >
         <div class="">
           <h2
-            class="pt-20 p-10 text-8xl font-bold uppercase text-center text-gray-800"
+            class="pt-20 p-10 text-6xl sm:text-7xl md:text-8xl font-bold uppercase text-center text-gray-300"
             >Barbers
           </h2>
         </div>
@@ -187,7 +187,7 @@
     <!-- Prices for Cuts -->
     <section class="section4 h-screen w-full">
       <div class="bg-gradient-to-b from-gray-500 to-gray-400 h-full">
-        <div class="flex flex-col lg:flex-row justify-center h-full md:px-10 xl:px-20 2xl:px-32">
+        <div class="flex flex-col lg:flex-row justify-center h-full md:px-10 xl:px-20 2xl:px-32 pb-40 md:pb-0">
           <!-- Left Side/ Icon or Picture -->
           <div class="w-1/2 flex justify-center">
             <img 
@@ -247,7 +247,7 @@
     <section class="section5 h-screen w-full">
       <div 
         id="contact" 
-        class="lg:items-center lg:pb-20 pt-28 h-full justify-center flex flex-col 
+        class="lg:items-center pb-40 md:pb-0 pt-10 h-full justify-center flex flex-col 
         lg:flex-row bg-gradient-to-b from-gray-400 to-gray-700 text-center">
         <!-- Hours -->
         <div class="lg:border-b-0 lg:border-r-2 border-b-2 border-white w-5/6 mx-auto lg:pt-28">
@@ -326,7 +326,7 @@ export default {
 
     .hero {
         background-image: url("/slide-3.jpg");
-        height: 90vh;
+        height: 100vh;
     }
 
 </style>
