@@ -4,7 +4,39 @@
     
     <section class="section1 h-full w-full">
       <div id="home">
-        <Carousel/>
+        <div class="hero bg-cover bg-center shadow-2xl relative">
+                <!-- Background Opacity -->
+                <div 
+                    class="bg-black opacity-60 w-full h-full absolute"
+                    >
+                </div>
+                <div class="text-white absolute h-full w-full">
+                    <div class="flex flex-col mx-auto lg:mx-20 h-full">
+                        <div class="my-auto text-center lg:text-left mx-auto lg:mx-10 xl:mx-28 2xl:mx-64">
+                            <p
+                                class="subtext text-2xl md:text-4xl lg:text-5xl whitespace-pre-line tracking-wide font-semibold"
+                                >We got you covered.
+                            </p>
+                            <p
+                                class="subtext text-xl md:text-2xl lg:text-3xl mb-10 font-semibold lg:tracking-wider lg:whitespace-pre-line lg:mt-5"
+                                >Learn what sets us 
+                                apart from average.
+                            </p>
+                            <div class="mt-10 subtext lg:w-max">
+                                <a
+                                    href="https://booksy.com/en-us/390352_gold-cuts_barber-shop_18229_chicago"
+                                    class="text-2xl md:text-3xl lg:text-2xl xl:text-3xl uppercase font-semibold bg-gradient-to-l 
+                                    from-gray-600 to-gray-400 px-20 py-3 lg:px-28 xl:px-24
+                                    text-yellow-400 hover:underline hover:shadow-xl"
+                                    >BOOK NOW
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                            
+
+                </div>
+            </div>
       </div>
     </section>
 
@@ -286,10 +318,15 @@ export default {
 
 <style scoped>
 
- #barber {
-   background: url(/bricks.jpg);
-   background-repeat: none;
-   background-size:cover;
- }
+    #barber {
+      background: url(/bricks.jpg);
+      background-repeat: none;
+      background-size:cover;
+    }
+
+    .hero {
+        background-image: url("/slide-3.jpg");
+        height: 90vh;
+    }
 
 </style>

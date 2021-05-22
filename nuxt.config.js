@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'barber-site',
+    title: 'GoldCuts',
     htmlAttrs: {
       lang: 'en'
     },
