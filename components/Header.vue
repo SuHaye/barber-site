@@ -83,7 +83,14 @@ export default {
     toggleNavbar: function(){
       this.showMenu = !this.showMenu;
     }
-  }
+  },
+
+  // Hides menu when an option is clicked
+  watch: {
+        '$route' () {
+            this.showMenu = false
+        }
+    },
 
  
 }
